@@ -24,7 +24,7 @@ const getPageData = async (): Promise<ProjectsPageData> => {
     }
     `
 
-  return fetchHygraphQuery(query, 5000)
+  return fetchHygraphQuery(query, 0)
 }
 
 export default async function Projects() {
